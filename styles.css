@@ -7,12 +7,20 @@
     src: url(fonts/Raleway-Regular.ttf) format('truetype');
 }
 
-h2 {
+.h2_normal {
     font-weight: normal;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 .logo {
     height: 50px;
+}
+
+#texte_intro {
+    line-height: 20px;
 }
 
 #barre_navigation, .liens_pages {
@@ -30,13 +38,18 @@ h2 {
 li {
     margin-right: 20px;
     text-decoration: none;
+    list-style-type: none;
+}
+
+.hebergements_lien, .activites_lien, .inscription_lien {
+    padding: 20px;
+    padding-top: 32px;
 }
 
 a {
     text-decoration: none;
     color: black;
     padding: 20px;
-    padding-top: 32px;
 }
 
 .hebergements_lien {
@@ -55,6 +68,7 @@ a {
     flex-direction: row;
     width: 250px;
     height: 40px;
+    margin-bottom: 20px;
 }
 
 #icone_localisation {
@@ -82,4 +96,35 @@ a {
 #rechercher {
     color: white;
     padding: 0px;
+}
+
+#filtres {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#filtres_titre {
+    margin-right: 40px;
+}
+
+#icone_dollar, #icone_enfant, #icone_coeur, #icone_chien {
+    padding: 15px;
+    border-radius: 25px;
+    background: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+}
+
+#economique, #familial, #romantique, #animaux {
+    border: 1px solid lightgrey;
+    padding: 15px 0px 15px 0px;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+
+#icone_info {
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid lightgrey;
 }
