@@ -1,0 +1,85 @@
+﻿body {
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.logo {
+    height: 50px;
+}
+
+#barre_navigation, .liens_pages {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.liens_pages {
+    justify-content: flex-end;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-top: 32px;
+}
+
+.hebergements_lien {
+    color: #0065FC;
+    opacity: 0.7;
+    border-top: 2px solid rgba(0, 101, 252, .7);
+}
+
+.inscription_lien {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+#recherche {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+}
+
+#icone_localisation {
+    display: flex;
+    align-self: center;
+    padding: 12px;
+    background: #F2F2F2;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+#lieu {
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+}
+
+#bouton_rechercher {
+    background: #0065FC;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 10px;
+}
+
+#rechercher {
+    color: white;
+    padding: 0px;
+}
