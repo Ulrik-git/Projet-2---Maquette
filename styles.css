@@ -11,6 +11,10 @@
     font-weight: normal;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 h2 {
     font-weight: bold;
 }
@@ -151,17 +155,118 @@ a {
     display: flex;
 }
 
-#liste_hebergements {
-    width: 75%;
-    background: lightgrey;
-    height: 200px;
+#liste_hebergements, #hebergements_populaires {
+    background: #F2F2F2;
+    height: 600px;
     margin-right: 40px;
     border-radius: 25px;
+    padding: 20px;
+}
+
+#liste_hebergements {
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #hebergements_populaires {
     width: 25%;
-    background: lightgrey;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.h3_titre {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 5px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.hotel{
+    background: white;
+    border-radius: 10%;
+    width: 200px;
     height: 200px;
-    border-radius: 25px;
+    padding: 5px;
+    margin-left: 20px;
+    line-height: 2px;
+    font-size: 14px;
+}
+
+.miniatures {
+    height: 125px;
+    width: 200px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.hotels_contenu {
+    padding-left: 10px;
+}
+
+.blue_stars {
+    color: #0065FC;
+}
+
+.grey_stars {
+    color: #F2F2F2;
+}
+
+.lien_hotels {
+    margin: 0;
+    padding: 0;
+}
+
+.h4_titre {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+}
+
+#row_1, #row_2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#populaires_texte {
+    display: flex;
+}
+
+#icone_graphique {
+    padding: 20px;
+    font-size: 32px;
+}
+
+.hebergement_populaire {
+    background: white;
+    border-radius: 10%;
+    width: 400px;
+    height: 160px;
+    padding: 5px;
+    margin-left: 20px;
+    line-height: 2px;
+    font-size: 14px;
+    display: flex;
+}
+
+.hebergement_populaires_contenu {
+    padding-left: 10px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.miniatures_hebergement_populaires {
+    height: 160px;
+    width: 200px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.lien_populaires {
+    padding: 0px;
 }
