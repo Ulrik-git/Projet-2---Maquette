@@ -123,8 +123,45 @@ a {
     margin-right: 40px;
 }
 
-#icone_info {
-    background-color: #0065FC;
-    color: white;
+#infos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#icone_infos {
+    color: #0065FC;
     border: 1px solid lightgrey;
+    padding: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#infos_logements {
+    width: 50%;
+    font-weight: normal;
+}
+
+#hebergements {
+    width: 100%;
+    display: flex;
+}
+
+#liste_hebergements {
+    width: 75%;
+    background: lightgrey;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+#hebergements_populaires {
+    width: 25%;
+    background: lightgrey;
+    height: 200px;
+    border-radius: 25px;
 }
