@@ -1,5 +1,6 @@
 ﻿body {
     font-family: Raleway;
+    margin-left: 40px;
 }
 
 @font-face {
@@ -193,6 +194,7 @@ a {
     margin-left: 20px;
     line-height: 2px;
     font-size: 14px;
+    box-shadow: 1px 1px lightgrey;
 }
 
 .miniatures {
@@ -249,17 +251,10 @@ a {
     height: 140px;
     padding: 5px;
     margin-left: 20px;
-    line-height: 20px;
     font-size: 14px;
     display: flex;
     margin-bottom: 20px;
-}
-
-.hebergement_populaires_contenu {
-    padding-left: 10px;
-    width: 160px;
-    height: 120px;
-    display: inline-block;
+    box-shadow: 1px 1px lightgrey;
 }
 
 .miniatures_hebergement_populaires {
@@ -269,6 +264,74 @@ a {
     border-bottom-left-radius: 10%;
 }
 
+.hebergement_populaires_contenu {
+    padding-left: 20px;
+    width: 160px;
+    height: 100%;
+    display: inline-block;
+}
+
+.hebergement_populaires_contenu > p {
+    line-height: 5px;
+}
+
+.populaires_titre {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+}
+
 .lien_populaires {
     padding: 0px;
+    display: flex;
+    align-content: center;
+}
+
+#stars_rating {
+    margin-top: 45px;
+}
+
+#activites {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.activites_titre {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.activites_size_full, .activites_size_half {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 1px 1px lightgrey;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.activites_size_full > img , .activites_size_half > img {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.activites_size_full {
+    height: 500px;
+}
+
+.activites_size_half {
+    height: 250px;
+}
+
+.h4_activites {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
 }
