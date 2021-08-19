@@ -210,8 +210,6 @@ a {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     object-fit: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
     object-position: 50% 50%;
 }
 
@@ -257,7 +255,7 @@ a {
 
 .hebergement_populaire {
     background: white;
-    border-radius: 10%;
+    border-radius: 20px;
     width: 400px;
     height: 140px;
     padding: 5px;
@@ -302,7 +300,7 @@ a {
     align-content: center;
 }
 
-#stars_rating {
+.stars_rating {
     margin-top: 45px;
 }
 
@@ -394,4 +392,14 @@ footer {
     padding-left: 40px;
     line-height: 10px;
     margin-bottom: 0px;
+}
+
+@media all and (max-width: 1500px) {
+    .hebergement_populaire {
+        width: 300px;
+    }
+
+    .activites_container_full, .activites_container_half {
+        width: 250px;
+    }
 }
