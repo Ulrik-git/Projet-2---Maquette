@@ -381,10 +381,17 @@ footer {
     background: #F2F2F2;
     display: flex;
     line-height: 25px;
-    justify-content: space-between;
     width: 100%;
 }
 
 #a_propos, #nos_hebergements, #assistance {
     margin-left: 0;
+    width: 33%;
+}
+
+.footer_bold {
+    padding-top: 20px;
+    padding-left: 40px;
+    line-height: 10px;
+    margin-bottom: 0px;
 }
