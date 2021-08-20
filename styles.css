@@ -345,17 +345,19 @@ a {
 }
 
 .column {
-    margin-right: 60px;
+    margin-right: 0px;
+    padding: 0px 20px;
 }
 
 .activites_container_full {
     height: 550px;
-    margin-left: 0px;
+    margin: 0px;
 }
 
 .activites_container_half {
     height: 250px;
     width: 100%;
+    margin: 0px;
     margin-bottom: 50px;
 }
 
@@ -371,7 +373,8 @@ a {
 .activites_img_full {
     height: 500px;
     width: 100%;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     object-fit: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -381,7 +384,8 @@ a {
 .activites_img_half {
     height: 200px;
     width: 100%;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     object-fit: cover;
     background-size: 100%;
     background-repeat: no-repeat;
