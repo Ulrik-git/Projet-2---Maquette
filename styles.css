@@ -24,8 +24,7 @@
 }
 
 h2 {
-    margin-bottom: 0px;
-    margin-left: 20px;
+    font-weight: bold;
 }
 
 .logo {
@@ -179,12 +178,23 @@ a {
     width: 65%;
     display: flex;
     flex-flow: row wrap;
+    padding-bottom: 20px;
+}
+
+#liste_hebergements > h2 {
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+#liste_hebergements > h4 {
+    margin-left: 20px;
 }
 
 #hebergements_populaires {
     width: 30%;
     display: flex;
     flex-direction: column;
+    padding: 20px 40px;
 }
 
 .hotel {
@@ -193,6 +203,7 @@ a {
     width: 226px;
     height: 180px;
     padding: 5px;
+    padding-bottom: 15px;
     margin: 0;
     line-height: 2px;
     font-size: 14px;
@@ -242,11 +253,16 @@ a {
 
 #populaires_texte {
     display: flex;
+    margin: 0;
+    margin-left: 8px;
 }
 
 #icone_graphique {
     padding: 20px;
     font-size: 32px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hebergement_populaire {
