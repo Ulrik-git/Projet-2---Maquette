@@ -89,8 +89,8 @@ a {
     align-self: center;
     padding: 12px;
     background: #F2F2F2;
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 20%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #lieu {
@@ -101,8 +101,8 @@ a {
 
 #bouton_rechercher {
     background: #0065FC;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding: 10px;
 }
 
