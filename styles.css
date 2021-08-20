@@ -138,6 +138,11 @@ a {
     padding-right: 20px;
 }
 
+#economique:hover, #familial:hover, #romantique:hover, #animaux:hover {
+    background: #0065FC;
+    color: white;
+}
+
 #infos {
     width: 100%;
     display: flex;
@@ -258,7 +263,7 @@ a {
 }
 
 #populaires_texte > h2 {
-    width: 55%;
+    width: 60%;
 }
 
 #icone_graphique {
@@ -266,7 +271,7 @@ a {
     padding-right: 0px;
     margin-right: 0px;
     font-size: 32px;
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: flex-end;
 }
