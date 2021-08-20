@@ -257,10 +257,16 @@ a {
     margin-left: 8px;
 }
 
+#populaires_texte > h2 {
+    width: 55%;
+}
+
 #icone_graphique {
     padding: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
     font-size: 32px;
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
 }
