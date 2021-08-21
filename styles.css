@@ -183,16 +183,21 @@ a {
     width: 65%;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
     padding-bottom: 20px;
 }
 
 #liste_hebergements > h2 {
     margin-bottom: 0px;
     margin-left: 20px;
+    height: auto;
+    width: 100%;
 }
 
 #liste_hebergements > h4 {
     margin-left: 20px;
+    width: 100%;
+    font-weight: bold;
 }
 
 #hebergements_populaires {
@@ -215,6 +220,16 @@ a {
     box-shadow: 1px 1px lightgrey;
 }
 
+figure {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
 
 .miniatures {
     height: 110px;
@@ -225,7 +240,7 @@ a {
     object-position: 50% 50%;
 }
 
-.hotels_contenu {
+figcaption, .hotel > a > p , .blue_stars {
     padding-left: 10px;
 }
 
@@ -247,13 +262,6 @@ a {
     font-size: 16px;
     display: flex;
     justify-content: left;
-}
-
-#row_1, #row_2 {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin: 0;
 }
 
 #populaires_texte {
