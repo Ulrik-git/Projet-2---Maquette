@@ -355,7 +355,6 @@ figcaption, .hotel > a > p , .blue_stars {
     border: 1px solid white;
     border-radius: 25px;
     box-shadow: 1px 1px lightgrey;
-    margin: 30px;
 }
 
 .activites_container_full > a > figure, .activites_container_half > a > figure {
@@ -382,7 +381,7 @@ figcaption, .hotel > a > p , .blue_stars {
 
 .activites_container_half {
     height: 250px;
-    width: 100%;
+    width: auto;
     margin: 0px;
     margin-bottom: 50px;
 }
@@ -455,6 +454,5 @@ footer {
     }
     /* responsive tablet */
     @media all and (min-width: 668px) and (max-width: 1024px) {
-        
     }
 }
