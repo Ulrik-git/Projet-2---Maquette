@@ -220,15 +220,16 @@ a {
     box-shadow: 1px 1px lightgrey;
 }
 
-figure {
+.hotel > a > figure {
     margin-left: 0px;
     margin-top: 0px;
 }
 
-figcaption {
+.hotel > a > figcaption {
     font-weight: bold;
     font-size: 16px;
     padding: 5px;
+    margin-left: 5px;
 }
 
 .miniatures {
@@ -357,6 +358,18 @@ figcaption, .hotel > a > p , .blue_stars {
     margin: 30px;
 }
 
+.activites_container_full > a > figure, .activites_container_half > a > figure {
+    margin: 0;
+    padding: 0;
+}
+
+.activites_container_full > a > figcaption, .activites_container_half > a > figcaption {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
 .column {
     margin-right: 0px;
     padding: 0px 20px;
@@ -372,15 +385,6 @@ figcaption, .hotel > a > p , .blue_stars {
     width: 100%;
     margin: 0px;
     margin-bottom: 50px;
-}
-
-.h4_activites {
-    font-weight: bold;
-    font-size: 16px;
-    display: flex;
-    justify-content: left;
-    padding-left: 20px;
-    margin-top: 15px;
 }
 
 .activites_img_full {
