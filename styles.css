@@ -351,6 +351,7 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
     height: 600px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .activites_titre {
@@ -362,7 +363,7 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 .activites_container_full, .activites_container_half {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 20%;
     border: 1px solid white;
     border-radius: 25px;
     box-shadow: 1px 1px lightgrey;
@@ -388,6 +389,7 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 .activites_container_full {
     height: 550px;
     margin: 0px;
+    width: 22%;
 }
 
 .activites_container_half {
