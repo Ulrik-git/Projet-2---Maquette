@@ -121,6 +121,11 @@ a {
     margin-right: 40px;
 }
 
+#icone_loupe {
+    position: absolute;
+    left: -2999px;
+}
+
 #icone_dollar, #icone_enfant, #icone_coeur, #icone_chien {
     padding: 15px;
     border-radius: 25px;
@@ -460,6 +465,7 @@ footer {
 }
     /* responsive mobile */
 @media all and (max-width: 667px) {
+
     body {
         margin: 0;
         padding: 0;
@@ -474,20 +480,101 @@ footer {
         padding: 0;
     }
 
-    .logo {
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    nav > ul > li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .liens_pages {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
         width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin: 20px 0px 25px 15px;
+        width: auto;
+    }
+
+    .hebergements_lien {
+        opacity: 1;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: auto;
+        margin: 0;
+    }
+
+    .activites_lien {
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 10px;
+        padding-left: 66px;
+        padding-right: 66px;
+        width: auto;
+        margin: 0;
     }
 
     .inscription_lien {
-        position: absolute;
-        right: 0px;
-    }
-
-    nav {
         margin-top: 10px;
         margin-left: 10px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bolder;
+        margin: 20px;
+        margin-bottom: 0px;
+        line-height: 30px;
     }
     
+    h2 {
+        font-size: 16px;
+        margin: 20px;
+        margin-top: 10px;
+    }
+
+    #recherche {
+        margin: 20px;
+        margin-top: 5px;
+    }
+
+    #bouton_rechercher {
+        position: absolute;
+        left: -2999px;
+    }
+
+    #icone_localisation {
+        padding-left: 15px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    #icone_loupe {
+        position: absolute;
+        left: 80%;
+        background: #0065FC;
+        color: white;
+        padding: 12px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
     /* responsive tablet */
     @media all and (min-width: 668px) and (max-width: 1024px) {
     }
