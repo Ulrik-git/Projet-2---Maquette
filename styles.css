@@ -616,6 +616,7 @@ footer {
         margin-left: 0;
         border-radius: 0;
         padding: 0;
+        padding-bottom: 20px;
     }
 
     #hebergements_populaires > h2 {
@@ -647,6 +648,69 @@ footer {
     #liste_hebergements {
         order: 2;
         width: 100%;
+        background: white;
+        padding-left: 0;
+        display: flex;
+        height: auto;
+    }
+
+    #liste_hebergements > h2 {
+        font-size: 20px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .hotel {
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    #liste_hebergements > h4 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .miniatures {
+        width: 340px;
+    }
+
+    .activites_titre {
+        margin-top: 0px;
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #activites {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .activites_container_full, .activites_container_half {
+        width: 330px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .activites_img_full, .activites_img_half {
+        height: 150px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #a_propos, #nos_hebergements, #assistance {
+        width: 100%;
+    }
+
+    .footer_bold {
+        padding-top: 0;
     }
 
     /* responsive tablet */
