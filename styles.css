@@ -306,8 +306,10 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 }
 
 .hebergement_populaire > a > p {
+    position: absolute;
     padding-top: 45px;
     padding-left: 20px;
+    margin-left: 140px;
     height: 20px;
     line-height: 5px;
     width: auto;
@@ -475,7 +477,7 @@ footer {
 
     #container {
         display: flex;
-        flex-flow: row wrap;
+        flex-direction: column;
         margin: 0;
         padding: 0;
     }
@@ -573,6 +575,78 @@ footer {
         border-radius: 10px;
         display: flex;
         align-items: center;
+    }
+
+    #filtres {
+        flex-flow: row wrap;
+    }
+
+    #filtres_titre {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #economique, #familial, #romantique, #animaux {
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    #icone_infos {
+        margin: 0;
+        margin-left: 15px;
+        margin-top: 5px;
+        display: flex;
+        align-self: flex-start;
+    }
+
+    #infos_logements {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #hebergements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergements_populaires {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    #hebergements_populaires > h2 {
+        font-size: 20px;
+        margin-left: 5px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    #icone_graphique {
+        margin-left: 0;
+        padding-left: 0;
+        width: 25%;
+        font-size: 24px;
+        padding-top: 20px;
+        margin-top: 10px;
+        }
+
+    .hebergement_populaire {
+        width: 330px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .stars_rating {
+        font-size: 12px;
+    }
+
+    #liste_hebergements {
+        order: 2;
+        width: 100%;
     }
 
     /* responsive tablet */
