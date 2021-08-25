@@ -811,14 +811,48 @@ footer {
     #hebergements_populaires {
         width: 100%;
         display: flex;
-        justify-content: center;
-        padding-left: 0;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
         margin-left: 0;
+        margin-right: 40px;
     }
 
     .hebergement_populaire {
         margin-right: 20px;
-        width: 75%;
+        width: 177px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .miniatures_hebergement_populaires {
+        display: flex;
+        width: 177px;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 10%;
+    }
+
+    .hebergement_populaire:last-child {
+        width: 140px;
+    }
+
+    .hebergement_populaire > a > figure > figcaption, .hebergement_populaire > a > p, .hebergement_populaire > a > .stars_rating {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .hebergement_populaire > a > figure > figcaption {
+        margin-top: 150px;
+    }
+
+    .hebergement_populaire > a > p {
+        margin-top: 195px;
+    }
+
+    .hebergement_populaire > a > .stars_rating {
+        margin-top: 225px;
     }
 
     /* liste activites tablet */
