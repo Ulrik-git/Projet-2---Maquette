@@ -9,6 +9,7 @@
     margin-left: 40px;
 }
 
+/* police */
 @font-face {
     font-family: "Raleway";
     src: url(fonts/Raleway-Regular.ttf) format('truetype');
@@ -27,6 +28,7 @@ h2 {
     font-weight: bold;
 }
 
+/* header */
 .logo {
     height: 50px;
 }
@@ -79,6 +81,7 @@ a {
     font-weight: bold;
 }
 
+/* champ de recherche */
 #recherche {
     display: flex;
     flex-direction: row;
@@ -114,6 +117,7 @@ a {
     padding: 0px;
 }
 
+/* liste filtres */
 #filtres {
     display: flex;
     align-items: center;
@@ -151,6 +155,7 @@ a {
     color: white;
 }
 
+/* informations */
 #infos {
     width: 100%;
     display: flex;
@@ -174,6 +179,7 @@ a {
     font-weight: normal;
 }
 
+/* liste hebergements */
 #hebergements {
     width: 100%;
     display: flex;
@@ -206,13 +212,6 @@ a {
     margin-left: 20px;
     width: 100%;
     font-weight: bold;
-}
-
-#hebergements_populaires {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 40px;
 }
 
 .hotel {
@@ -269,14 +268,9 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
     padding: 0;
 }
 
-.h4_titre {
-    font-weight: bold;
-    font-size: 16px;
-    display: flex;
-    justify-content: left;
-}
-
+/* liste populaires */
 #hebergements_populaires {
+    width: 30%;
     display: flex;
     flex-flow: row wrap;
     margin: 0;
@@ -374,6 +368,7 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
     margin-top: 45px;
 }
 
+/* liste activites */
 #activites {
     width: 100%;
     height: auto;
@@ -453,6 +448,7 @@ a {
     padding: 0;
 }
 
+/* footer  */
 footer {
     background: #F2F2F2;
     display: flex;
@@ -488,6 +484,7 @@ footer {
         padding: 0;
     }
 
+    /* header mobile */
     nav {
         display: flex;
         flex-flow: row wrap;
@@ -570,6 +567,7 @@ footer {
         margin-top: 10px;
     }
 
+    /* champ de recherche mobile */
     #recherche {
         margin: 20px;
         margin-top: 5px;
@@ -599,6 +597,7 @@ footer {
         align-items: center;
     }
 
+    /* filtres mobile */
     #filtres {
         flex-flow: row wrap;
     }
@@ -614,6 +613,7 @@ footer {
         margin-left: 15px;
     }
 
+    /* informations mobile */
     #icone_infos {
         margin: 0;
         margin-left: 15px;
@@ -631,11 +631,13 @@ footer {
         font-size: 20px;
     }
 
+    /* liste hebergements mobile */
     #hebergements {
         display: flex;
         flex-direction: column;
     }
 
+    /* liste populaires mobile */
     #hebergements_populaires {
         order: 1;
         width: 100%;
@@ -711,6 +713,7 @@ footer {
         width: 100%;
     }
 
+    /* liste activites */
     .activites_titre {
         margin-top: 0px;
         font-size: 24px;
@@ -734,6 +737,7 @@ footer {
         height: 150px;
     }
 
+    /* footer */
     footer {
         display: flex;
         flex-direction: column;
@@ -767,6 +771,7 @@ footer {
         width: 100%;
     }
 
+    /* filtres tablet */
     #filtres {
         display: flex;
         flex-flow: row wrap;
@@ -777,10 +782,12 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* informations tablet */
     #infos_logements {
         width: 100%;
     }
 
+    /* liste hebergements tablet */
     #hebergements {
         display: flex;
         flex-flow: row wrap;
@@ -800,6 +807,7 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* liste populaires tablet */
     #hebergements_populaires {
         width: 100%;
         display: flex;
@@ -813,6 +821,7 @@ footer {
         width: 75%;
     }
 
+    /* liste activites tablet */
     #activites {
         height: auto;
         display: flex;
