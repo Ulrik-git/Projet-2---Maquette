@@ -178,7 +178,7 @@ a {
 
 #liste_hebergements, #hebergements_populaires {
     background: #F2F2F2;
-    height: 580px;
+    height: auto;
     margin-right: 40px;
     border-radius: 25px;
     padding: 20px;
@@ -193,7 +193,7 @@ a {
 }
 
 #liste_hebergements > h2 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-left: 20px;
     height: auto;
     width: 100%;
@@ -223,6 +223,7 @@ a {
     line-height: 2px;
     font-size: 14px;
     box-shadow: 1px 1px lightgrey;
+    margin-bottom: 20px;
 }
 
 .hotel > a > figure {
@@ -282,7 +283,7 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 }
 
 #hebergements_populaires > h2 {
-    width: 60%;
+    width: 90%;
 }
 
 .hebergement_populaire > a > figure {
@@ -327,8 +328,10 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
     padding-top: 15px;
     padding-right: 0px;
     margin-right: 0px;
+    margin-left: 0;
+    padding-left: 0;
     font-size: 32px;
-    width: 35%;
+    width: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -370,10 +373,10 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 
 #activites {
     width: 100%;
-    height: 600px;
+    height: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .activites_titre {
@@ -571,11 +574,11 @@ footer {
 
     input {
         font-size: 16px;
+        padding-right: 0;
     }
 
     #icone_loupe {
-        position: absolute;
-        left: 80%;
+        position: inherit;
         background: #0065FC;
         color: white;
         padding: 12px;
