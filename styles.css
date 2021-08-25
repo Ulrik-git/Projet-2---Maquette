@@ -71,6 +71,10 @@ a {
     border-top: 2px solid rgba(0, 101, 252, .7);
 }
 
+.hebergements_lien:hover {
+    
+}
+
 .inscription_lien {
     color: #0065FC;
     font-weight: bold;
@@ -613,6 +617,7 @@ footer {
     #infos_logements {
         width: 100%;
         margin-left: 10px;
+        font-size: 20px;
     }
 
     #hebergements {
