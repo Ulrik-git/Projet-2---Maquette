@@ -72,7 +72,7 @@ a {
 }
 
 .hebergements_lien:hover {
-    
+
 }
 
 .inscription_lien {
@@ -609,9 +609,12 @@ footer {
     #icone_infos {
         margin: 0;
         margin-left: 15px;
-        margin-top: 5px;
+        margin-top: 20px;
         display: flex;
         align-self: flex-start;
+        padding: 4px;
+        padding-bottom: 0px;
+        font-size: 12px;
     }
 
     #infos_logements {
@@ -635,6 +638,7 @@ footer {
     }
 
     #hebergements_populaires > h2 {
+        width: 60%;
         font-size: 20px;
         margin-left: 5px;
         padding-top: 20px;
