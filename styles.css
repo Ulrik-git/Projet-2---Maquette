@@ -130,7 +130,7 @@ a {
 
 #icone_loupe {
     position: absolute;
-    left: -2999px;
+    right: 2999px;
 }
 
 #icone_dollar, #icone_enfant, #icone_coeur, #icone_chien {
@@ -569,6 +569,7 @@ footer {
 
     /* champ de recherche mobile */
     #recherche {
+        width: 80%;
         margin: 20px;
         margin-top: 5px;
     }
@@ -589,12 +590,11 @@ footer {
 
     #icone_loupe {
         position: inherit;
+        margin-left: -20px;
         background: #0065FC;
         color: white;
         padding: 12px;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
     }
 
     /* filtres mobile */
