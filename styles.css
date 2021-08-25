@@ -490,15 +490,20 @@ footer {
     nav > ul > li {
         padding: 0;
         margin: 0;
+        width: 50%;
+    }
+
+    #li_inscription {
+        width: 0;
     }
 
     .liens_pages {
         padding: 0;
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .logo {
@@ -508,22 +513,24 @@ footer {
 
     .hebergements_lien {
         opacity: 1;
+        display: flex;
         border-top: none;
         border-bottom: 4px solid #0065FC;
-        padding-bottom: 10px;
-        padding-left: 35px;
-        padding-right: 35px;
         width: auto;
         margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        justify-content: center;
     }
 
     .activites_lien {
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom: 10px;
-        padding-left: 66px;
-        padding-right: 66px;
+        display: flex;
         width: auto;
+        border-bottom: 4px solid #F2F2F2;
         margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        justify-content: center;
     }
 
     .inscription_lien {
