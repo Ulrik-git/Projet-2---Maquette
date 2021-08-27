@@ -35,7 +35,9 @@
         <span id="icone_localisation">
             <i class="fas fa-map-marker-alt"></i>
         </span>
-        <input type="text" placeholder="Marseille, France" name="lieu" id="lieu" size="25" maxlength="25" />
+        <form method="post" action="recherche.php">
+            <input type="text" placeholder="Marseille, France" name="lieu" id="lieu" size="25" maxlength="25" />
+        </form>
         <span id="bouton_rechercher"><a id="rechercher" href="#">Rechercher</a></span>
         <span id="icone_loupe"><i class="fas fa-search"></i></span>
     </div>
@@ -286,7 +288,7 @@
     <h3 class="activites_titre">Activités à Marseille</h3>
 
 
-    <div id="activites">
+    <section id="activites">
 
         <div class="activites_container_full">
             <a href="#">
@@ -347,7 +349,7 @@
         </div>
         </div>
 
-    </div>
+    </section>
 
 </div>
 

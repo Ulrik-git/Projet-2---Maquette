@@ -85,7 +85,7 @@ a {
 #recherche {
     display: flex;
     flex-direction: row;
-    width: 250px;
+    width: auto;
     height: 40px;
     margin-bottom: 20px;
 }
@@ -99,9 +99,16 @@ a {
     border-bottom-left-radius: 15px;
 }
 
-#lieu {
+form {
+    padding: 0;
+    margin: 0;
+}
+
+input {
     font-weight: bold;
     border: 1px solid lightgrey;
+    box-sizing: border-box;
+    height: 100%;
     padding-left: 10px;
 }
 
@@ -573,7 +580,7 @@ footer {
 
     #bouton_rechercher {
         position: absolute;
-        left: -2999px;
+        display: none;
     }
 
     #icone_localisation {
