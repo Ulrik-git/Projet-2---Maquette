@@ -68,11 +68,11 @@ a {
 }
 
 .hebergements_lien {
-    color: #0065FC;
-    opacity: 0.7;
+    color: black;
 }
 
-.hebergements_lien:hover, .activites_lien:hover, .inscription_lien:hover {
+.hebergements_lien:hover, .activites_lien:hover {
+    color: #0065FC;
     border-top: 2px solid rgba(0, 101, 252, .7);
 }
 
@@ -518,7 +518,7 @@ footer {
         opacity: 1;
         display: flex;
         border-top: none;
-        border-bottom: 4px solid #0065FC;
+        border-bottom: 4px solid #F2F2F2;
         width: auto;
         margin: 0;
         padding: 0;
@@ -544,11 +544,8 @@ footer {
         top: 0px;
     }
 
-    .hebergements_lien:hover, .activites_lien:hover, .inscription_lien:hover {
+    .hebergements_lien:hover, .activites_lien:hover {
         border-top: none;
-    }
-
-    .hebergements_lien:active, .activites_lien:active {
         border-bottom: none;
         border-bottom: 4px solid #0065FC;
     }
