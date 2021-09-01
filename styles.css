@@ -385,9 +385,12 @@ figcaption, .hotel > a > p , .hotel > a > .blue_stars {
 }
 
 .activites_titre {
+    display: block;
+    width: 100%;
     font-weight: bold;
     font-size: 32px;
     margin-top: 60px;
+    margin-left: 20px;
 }
 
 .activites_container_full, .activites_container_half {
